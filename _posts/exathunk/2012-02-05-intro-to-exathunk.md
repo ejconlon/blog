@@ -20,7 +20,8 @@ lazy and pure functional programming.  Even in languages like Haskell,
 purity is a well-maintained fiction (hidden by monadic I/O), but it is
 still a useful one.  We should consider a solution accessible to
 strict, imperative languages that presents a lazy, pure facade between
-components.
+components.  (An aside: if you don't consider yourself part of "we" here then
+let that be [James](https://github.com/wolfwood) and I.)
 
 The first step is to suggest a grammar for such a system.  Here, too,
 Haskell presents us with an appealing model - a strong, expressive
